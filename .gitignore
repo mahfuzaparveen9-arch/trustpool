@@ -1,0 +1,26 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+
+# Foundry / Solidity
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Keeper
+keeper/dist/
+
+# OS / Editor
+.DS_Store
+*.log
+.vscode/
+.idea/
